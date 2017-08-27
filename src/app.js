@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
 
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './presentation/Header';
+import Footer from './presentation/Footer';
+import MainLayout from './layout/MainLayout'
 
 class App extends Component {
-	
 	render(){
 		return(
-			<div>
+			<div className="container-fluid">
 				<Header />
-				This is main file : app.js
+					<MainLayout/>
 				<Footer />
 			</div>
 			)
@@ -18,4 +19,8 @@ class App extends Component {
 }
 
 
-ReactDOM.render(<App/>,document.getElementById('root'))
+ReactDOM.render(
+	<BrowserRouter>
+		<App/>
+	</BrowserRouter>,
+	document.getElementById('root'))

@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
   render(){
     return(
-        <div>
-          <div className='row'>
-              This is header 
+          <div >
+              This is header             
           </div>       
-        </div>
       )
   }
 }
