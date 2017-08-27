@@ -1,6 +1,6 @@
-#react-01-boilerplate
+# react-01-boilerplate
 
-Check this boilerplat live at following address:
+This boilerplate is live at following address
 
 https://react-01-boilerplate.herokuapp.com/
 
