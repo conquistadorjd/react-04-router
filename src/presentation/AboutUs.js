@@ -5,8 +5,7 @@ class AboutUs extends Component {
     return(
           <div>
           	<h2>About Us</h2>
-              <p> About us... hmmm. </p>
-              <p> Just trying to figure out how react and react ecosystem works </p>
+              <p> This is about us </p>
           </div>       
       )
   }
